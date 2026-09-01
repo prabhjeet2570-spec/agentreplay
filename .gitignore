@@ -9,6 +9,9 @@ out/
 *.tsbuildinfo
 next-env.d.ts
 
+# local runtime data — SQLite traces are state, never commit
+data/
+
 # misc
 .DS_Store
 npm-debug.log*
