@@ -10,6 +10,7 @@
     "mock": "tsx scripts/mock-agent.ts",
     "mock:llm": "tsx scripts/mock-llm.ts",
     "mock:reset": "rm -f ./data/traces.db",
+    "test:replay": "tsx scripts/test-replay.ts",
     "test:insights": "tsx scripts/test-insights.ts",
     "test:protobuf": "tsx scripts/test-protobuf.ts"
   },
