@@ -9,7 +9,9 @@
     "typecheck": "tsc --noEmit",
     "mock": "tsx scripts/mock-agent.ts",
     "mock:llm": "tsx scripts/mock-llm.ts",
-    "mock:reset": "rm -f ./data/traces.db"
+    "mock:reset": "rm -f ./data/traces.db",
+    "test:insights": "tsx scripts/test-insights.ts",
+    "test:protobuf": "tsx scripts/test-protobuf.ts"
   },
   "dependencies": {
     "better-sqlite3": "^13.0.3",
